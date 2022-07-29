@@ -251,7 +251,8 @@ jobs:
         deploy(){
 
           echo "Deploying application..."
-          ls
+          
+          kubectl config current-context
 
           NAMESPACE="jppetstore"  
 
