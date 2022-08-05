@@ -115,7 +115,7 @@ secure(){
 }
 
 (
-    set -ex
+    # set -ex
     secure
 )
 
