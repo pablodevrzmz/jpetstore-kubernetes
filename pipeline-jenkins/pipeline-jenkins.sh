@@ -112,6 +112,7 @@ secure(){
     export DB_JSON_REPORT_PATH="db.json"
     export WEB_JSON_REPORT_PATH="web_app.json"
     python3 ../pipeline-common/publish_data/publish.py --secure
+    return 0
 }
 
 (
